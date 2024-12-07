@@ -1,0 +1,110 @@
+##############################################################
+#                                                            #
+#                                                            #
+#                     Coded by n1zamu!                       #
+#                                                            #
+#                                                            #
+##############################################################
+
+adminMessage:
+  reload: "Конфиг успешно перезагружен"
+  boostPlayer: "Игрок %player% был забущен!"
+  boostAll: "Все игроки были забущены!"
+  incTime: "Неверный формат времени!"
+  noOnline: "Игрок не онлайн!"
+
+worldName: "world" # Имя мира в котором будут работы
+mineRegion: "mine"
+farmRegion: "farm"
+woodCutterRegion: "wood"
+
+woodMessage: "&6Лесопилка &7» &fОсталось &6%left% раз"
+
+# Бонусы в процентах
+minBonus: 10
+maxBonus: 25
+
+# Время перезарядки шахты и фермы
+mineReload: 30
+farmReload: 15
+
+# Текст для бустеров
+personalBoosterBar: "&aАктивные бустеры: &6x2 &eПерсональный &7(%time%)"
+globalBoosterBar: "&aАктивные бустеры: &6x2 &eГлобальный &7(%time%)"
+
+# Для выдачи зарплаты
+
+# %salary% - Зарплата;
+# %bonus% - Премия
+getMoneyMethod:
+  command: true
+  cmdMessage:
+    - "&6Работы &7» &fВаша зарплата: &6%salary%"
+    - "&6Работы &7» &fВаша премия: &6%bonus%"
+
+# Цены на каждый блок
+prices:
+  WOOD_price: 300
+
+  COAL_ORE_price: 15
+  DIAMOND_ORE_price: 40
+  EMERALD_ORE_price: 25
+  IRON_ORE_price: 20
+  STONE_price: 0
+  LAPIS_ORE_price: 15
+  REDSTONE_ORE_price: 15
+  GOLD_ORE_price: 20
+
+  WHEAT_price: 5
+  CARROTS_price: 5
+  POTATOES_price: 5
+  BEETROOTS_price: 5
+  MELON_price: 35
+  PUMPKIN_price: 35
+
+# Настройка скорбордов
+mine:
+  title: "&#FDBE00&lГ&#FDAA08&lР&#FC9610&lИ&#FC8319&lФ &#FB6F21&l#&#FB5B29&l1"
+  scoreboard:
+    - ""
+    - " &#FC6F00&lꐁ &fЛазурит: &#FC6F00%nJobs_lapis_ore% шт."
+    - " &#FC6F00&lꐁ &fКамень: &#FC6F00%nJobs_stone% шт."
+    - " &#FC6F00&lꐁ &fЗолото: &#FC6F00%nJobs_gold_ore% шт."
+    - " &#FC7800&lꐁ &fИзумруды: &#FC6F00%nJobs_emerald_ore% шт."
+    - " &#FC7800&lꐁ &fЖелезо: &#FC6F00%nJobs_iron_ore% шт."
+    - " &#FC7800&lꐁ &fУголь: &#FC6F00%nJobs_coal_ore% шт."
+    - " &#FC7800&lꐁ &fАлмазная руда: &#FC6F00%nJobs_diamond_ore% шт."
+    - " &#FC8000&lꐀ &fРедстоун: &#FC6F00 %nJobs_redstone_ore% шт."
+    - "&7"
+    - " &#FC8F00&lꐁ &fЗарплата: &6%nJobs_salary% &eꐂ"
+    - " &#FC9900&lꐀ &6Не забудь сдать!"
+    - "&7"
+    - "&7   &x&f&b&b&e&2&2&lL&x&f&b&b&7&2&1&le&x&f&b&b&0&2&1&lg&x&f&b&a&9&2&0&le&x&f&c&a&2&1&f&ln&x&f&c&9&b&1&e&ld&x&f&c&9&4&1&e&ls&x&f&c&8&e&1&d&lG&x&f&c&8&7&1&c&lr&x&f&c&8&0&1&c&li&x&f&c&7&9&1&b&le&x&f&d&7&2&1&a&lf&x&f&d&6&b&1&9&l.&x&f&d&6&4&1&9&lr&x&f&d&5&d&1&8&lu "
+    - "&7"
+farm:
+  title: "&#FDBE00&lГ&#FDAA08&lР&#FC9610&lИ&#FC8319&lФ &#FB6F21&l#&#FB5B29&l1"
+  scoreboard:
+    - ""
+    - " &#FC6F00&lꐁ &fМорковь: &#FC6F00%nJobs_carrots% шт."
+    - " &#FC6F00&lꐁ &fКартошка: &#FC6F00%nJobs_potatoes% шт."
+    - " &#FC7800&lꐁ &fКартошка: &#FC6F00%nJobs_beetroots% шт."
+    - " &#FC7800&lꐁ &fАрбуз: &#FC6F00%nJobs_melon% шт."
+    - " &#FC8000&lꐁ &fПшеница: &#FC6F00%nJobs_wheat% шт."
+    - " &#FC8000&lꐀ &fТыква: &#FC6F00%nJobs_pumpkin% шт."
+    - "&7"
+    - " &#FC8F00&lꐁ &fЗарплата: &6%nJobs_salary% &eꐂ"
+    - " &#FC9900&lꐀ &6Не забудь сдать!"
+    - "&7"
+    - "&7   &x&f&b&b&e&2&2&lL&x&f&b&b&7&2&1&le&x&f&b&b&0&2&1&lg&x&f&b&a&9&2&0&le&x&f&c&a&2&1&f&ln&x&f&c&9&b&1&e&ld&x&f&c&9&4&1&e&ls&x&f&c&8&e&1&d&lG&x&f&c&8&7&1&c&lr&x&f&c&8&0&1&c&li&x&f&c&7&9&1&b&le&x&f&d&7&2&1&a&lf&x&f&d&6&b&1&9&l.&x&f&d&6&4&1&9&lr&x&f&d&5&d&1&8&lu "
+    - "&7"
+woodCutter:
+  title: "&#FDBE00&lГ&#FDAA08&lР&#FC9610&lИ&#FC8319&lФ &#FB6F21&l#&#FB5B29&l1"
+  scoreboard:
+    - "&7"
+    - " &#FC8000&lꐀ &fДревесина: &#FC6F00%nJobs_count% шт."
+    - "&7"
+    - " &#FC6F00&lꐁ &fЗарплата: &#FC7800%nJobs_salary% &eꐂ"
+    - " &#FC8000&lꐀ &#FC7800Не забудь сдать!"
+    - "&7"
+    - "&7   &x&f&b&b&e&2&2&lL&x&f&b&b&7&2&1&le&x&f&b&b&0&2&1&lg&x&f&b&a&9&2&0&le&x&f&c&a&2&1&f&ln&x&f&c&9&b&1&e&ld&x&f&c&9&4&1&e&ls&x&f&c&8&e&1&d&lG&x&f&c&8&7&1&c&lr&x&f&c&8&0&1&c&li&x&f&c&7&9&1&b&le&x&f&d&7&2&1&a&lf&x&f&d&6&b&1&9&l.&x&f&d&6&4&1&9&lr&x&f&d&5&d&1&8&lu "
+    - "&7"

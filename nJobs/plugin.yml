@@ -1,0 +1,11 @@
+name: nJobs
+version: '1'
+main: wtf.n1zamu.nJobs.NJobs
+api-version: '1.16'
+author: n1zamu
+depend: [TAB, PlaceholderAPI, WorldGuard, Vault]
+commands:
+  nJobs:
+    aliases:
+      - nJobs
+      - jobs
